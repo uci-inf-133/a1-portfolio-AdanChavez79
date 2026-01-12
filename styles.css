@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+
+
+body {
+    font-family: "Sora", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal; 
+    background-color: #850E35;
+    margin: 0;
+    color: #FCF5EE;
+}
+
+nav {
+    display: inline;
+    text-align: center;
+}
+
+
+.title {
+    text-align: center;
+    margin-bottom: 100px;
+    font-weight: 800;
+}
+
+
+.card {
+    border: 10px solid rgb(0, 0, 0);
+    border-radius: 16px;
+    background-color: #ffffff;
+
+}
+
+.card-img {
+    border: 0px solid #000000;  
+    border-radius: 50px;
+    width: 500px;
+    height: 350px;
+    object-fit: cover;      
+    object-position: center;
+}
+
+.btn {
+    border: 5px solid #000000;  
+    border-radius: 10px;
+}
+
+
+.skills {
+    margin: 0 auto;
+    height: 200px;
+    width: 1200px;
+    border: 1px solid gray;
+    border-radius: 8px;
+    padding: 8px;
+}
