@@ -17,37 +17,46 @@ EMAIL: adanjc@uci.edu
   <title>Adan Chavez's Website</title>
 </head>
 <body>
-  <p>
+  <!--<p>
     <a href="http://validator.w3.org/check?uri=referer">
        W3C validator
     </a> 
-  </p>
+  </p>-->
   
-  <ul>
-    <li><a href="">Home</a></li>
-    <li><a href="">About</a></li>
-    <li><a href="">Projects</a></li>
-    <li><a href="">Skills</a></li>
-  </ul>
+  <nav>
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#contact">Contact</a>
+    </ul>
+  </nav>
 
-  <h1>Hi there! My name is Adan Chavez.</h1>
-  <h1>Welcome! Thanks for checking out my portfolio website! ٩( ^ᴗ^ )۶</h1>
+  <div id="home">
+    <h1>Welcome! Thanks for checking out my portfolio website! ٩( ^ᴗ^ )۶</h1>
+  </div>
 
-  <div class="title">
+
+  <div class="title" id="about">
     <h2>About</h2>
   </div>
 
-  <p> I am a Computer Science student at the University of California Irvine. 
-    <br>Aspiring software developer particularly interested in <strong> full stack web development </strong> and <strong> game development. </strong>
-    <br>Here are some projects I’ve worked on over the years. 
-    <br>Feel free to check them out
-  </p>
+  <div class="about-content">
+    <h3>My name is Adan Chavez.</h3>
+    <p> I am a Computer Science student at the University of California Irvine. 
+      <br>Aspiring software developer particularly interested in <strong> full stack web development </strong> and <strong> game development. </strong>
+      <br>Here are some projects I’ve worked on over the years. 
+      <br>Feel free to check them out
+    </p>
+  </div>
 
-  <div class="title">
+
+  <div class="title" id="projects">
     <h2>Projects</h2>
   </div>
 
-  <div class="card mb-3 mx-auto" style="width: 60rem;">
+  <div class="card mb-3 mx-auto">
     <div class="card-body">
       <h5 class="card-title">Senior Sense Solutions - Full Stack Web Development</h5>
       <p class="card-text">Project sponsored by Dassault Systèms, tasked to develop a full-stack web application 
@@ -57,16 +66,39 @@ EMAIL: adanjc@uci.edu
     <a href="https://github.com/PurelyBlank/Senior-Sense-Solutions" class="btn btn-outline-dark mb-3 mx-3">Check it out</a>
   </div>
 
-  <div class="title">
+  <div class="card mb-3 mx-auto">
+    <div class="card-body">
+      <h5 class="card-title">Underwatertale - Game Development</h5>
+      <p class="card-text">A top-down narrative-driven adventure game that uses a mix of 3d and 2d assets 
+        in the Godot Engine, where I designed and developed a boss fight and two minigames.</p>
+      <img src="https://img.itch.zone/aW1hZ2UvMzE1MjQxNi8yMTQ5MjI2Ni5wbmc=/original/plsZBM.png" class="card-img d-block mx-auto" alt="...">
+    </div>
+    <a href="https://24lemon.itch.io/underwatertale" class="btn btn-outline-dark mb-3 mx-3">Check it out</a>
+  </div>
+
+  <div class="title" id="skills">
     <h2>Skills & Expertise</h2>
   </div>
 
-  <div class="skills">
+  <div class="skills-content">
     <p>Programming Languages: C/C++, Python, JavaScript/Typescript, GDscript.	
       <br>Software: GitHub, Visual Studio Code, Unity, Godot, Google Suite, Vim, Linux.
       <br>Database Systems: PostgreSQL, MySQL.
       <br>Fluent Languages: English, Spanish.
     </p>
+  </div>
+
+  <div class="title" id="contact">
+    <h2>Contact</h2>
+  </div>
+
+  <div class="contact-content">
+    <ul>
+      <li>Email:</li>
+      <li>LinkedIn: </li>
+      <li>GitHub:</li>
+    </ul>
+
   </div>
 
   </div>

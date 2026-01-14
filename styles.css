@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
 
-
 body {
     font-family: "Sora", sans-serif;
     font-optical-sizing: auto;
@@ -12,30 +11,61 @@ body {
 }
 
 nav {
-    display: inline;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+nav ul {
+    background-color: black;
+    list-style-type: none;
+    padding: 0px; 
+    margin: 0px;
+    overflow: hidden;
+    justify-content: center;
+}
+
+nav a {
+    color: #FCF5EE;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    display: block;
     text-align: center;
 }
 
+nav a:hover {
+    background-color: #FCF5EE;
+    color: #000000;
+}
+
+nav li {
+    float: left;
+
+}
+
+h1 {
+    margin: 40px;
+    text-align: center;
+}
 
 .title {
     text-align: center;
-    margin-bottom: 100px;
-    font-weight: 800;
+    margin: 50px;
 }
-
 
 .card {
     border: 10px solid rgb(0, 0, 0);
     border-radius: 16px;
     background-color: #ffffff;
-
+    object-fit: cover;      
+    object-position: center;
+    max-width: 60rem;
 }
 
 .card-img {
-    border: 0px solid #000000;  
-    border-radius: 50px;
-    width: 500px;
-    height: 350px;
+    max-width: 500px;
+    max-height: 350px;
     object-fit: cover;      
     object-position: center;
 }
@@ -45,12 +75,19 @@ nav {
     border-radius: 10px;
 }
 
-
-.skills {
-    margin: 0 auto;
-    height: 200px;
-    width: 1200px;
+.skills-content {
+    margin: auto;
     border: 1px solid gray;
     border-radius: 8px;
     padding: 8px;
+}
+
+.about-content{
+    display: flex;
+    gap: 20px;
+    max-width: 80rem;
+    font-size: larger;
+    margin: 40px;
+    margin: 0 auto;
+
 }
