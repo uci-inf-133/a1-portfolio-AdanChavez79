@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap');
 
 body {
-    font-family: "Sora", sans-serif;
+    font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
-    font-weight: 200;
+    font-weight: 300;
     font-style: normal; 
     background-color: #850E35;
     margin: 0;
@@ -11,9 +11,14 @@ body {
 }
 
 nav {
+    font-family: "JetBrains Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
     position: sticky;
     top: 0;
     z-index: 10;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.5);
 }
 
 nav ul {
@@ -22,7 +27,6 @@ nav ul {
     padding: 0px; 
     margin: 0px;
     overflow: hidden;
-    justify-content: center;
 }
 
 nav a {
@@ -64,8 +68,8 @@ h1 {
 }
 
 .card-img {
-    max-width: 500px;
-    max-height: 350px;
+    max-width: 60%;
+    height: auto;
     object-fit: cover;      
     object-position: center;
 }
@@ -73,6 +77,7 @@ h1 {
 .btn {
     border: 5px solid #000000;  
     border-radius: 10px;
+    font-size: larger;
 }
 
 .skills-content {
@@ -89,5 +94,8 @@ h1 {
     font-size: larger;
     margin: 40px;
     margin: 0 auto;
+}
 
+.card-text {
+    font-size: large;
 }
