@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap');
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-family: "Roboto", sans-serif;
     font-optical-sizing: auto;
@@ -53,6 +57,21 @@ h1 {
     text-align: center;
 }
 
+.about-content img{
+    position: relative;
+    width: 20%;
+    height: auto;
+    
+}
+
+.about-content{
+    display: flex;
+    gap: 20px;
+    max-width: 80rem;
+    font-size: larger;
+    margin: 0 auto;
+}
+
 .title {
     text-align: center;
     margin: 50px;
@@ -62,16 +81,10 @@ h1 {
     border: 10px solid rgb(0, 0, 0);
     border-radius: 16px;
     background-color: #ffffff;
-    object-fit: cover;      
-    object-position: center;
-    max-width: 60rem;
 }
 
 .card-img {
-    max-width: 60%;
-    height: auto;
-    object-fit: cover;      
-    object-position: center;
+    max-width: 90%;
 }
 
 .btn {
@@ -87,14 +100,6 @@ h1 {
     padding: 8px;
 }
 
-.about-content{
-    display: flex;
-    gap: 20px;
-    max-width: 80rem;
-    font-size: larger;
-    margin: 40px;
-    margin: 0 auto;
-}
 
 .card-text {
     font-size: large;
