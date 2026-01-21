@@ -55,7 +55,6 @@ nav a {
     text-align: center;
     padding: 25px;
     display: block;
-    text-align: center;
     transition: 0.5s ease;
 
 }
@@ -158,6 +157,8 @@ nav li {
     padding: 12px;
     max-width: 60rem;
     text-align: center; 
+    transition: 0.5s ease;
+
 }
 
 .skills-content ul{
@@ -177,4 +178,29 @@ nav li {
 .skills-content img:hover{
     transform: scale(1.1);
 
+}
+
+.skills-content:hover{
+    transform: scale(1.02);
+}
+
+.contact-content{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+    gap: 2rem;
+}
+
+.contact-content img{
+    width: 75px;
+    height: 75px;
+    transition: 0.3s ease;
+}
+
+.invert {
+    filter: invert(100%);
+}
+
+.contact-content img:hover{
+    transform: scale(1.1);
 }
