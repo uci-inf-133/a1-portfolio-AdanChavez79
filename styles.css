@@ -6,12 +6,11 @@ html {
 }
 
 body {
-    font-family: "Roboto", sans-serif;
+    font-family: "Sora", sans-serif;
     font-optical-sizing: auto;
     font-weight: 300;
-    font-style: normal; 
+    font-style: normal;
     background-color: #850E35;
-    margin: 0;
     color: #FCF5EE;
 }
 
@@ -21,18 +20,18 @@ body {
     font-weight: 200;
     font-style: normal;
     font-size: large;
-    
+
     position: sticky;
     top: 0;
-    z-index: 10; 
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.5);
+    z-index: 10;
+    box-shadow: 0 4px 6px 0 rgba(0, 0, 0, .5);
     display: flex;
     background-color: black;
-    justify-content:space-between;
+    justify-content: space-between;
     padding: 0 10%;
 }
 
-.name{
+.name {
     padding: 20px;
     font-weight: 400;
     display: block;
@@ -78,11 +77,10 @@ nav li {
     align-items: center;
     gap: 2rem;
     padding-top: 2.5rem;
-    font-family: sans-serif;
     font-optical-sizing: auto;
 }
 
-.home-img img{
+.home-img img {
     width: 32vw;
     position: relative;
     transition: 0.5s ease;
@@ -90,12 +88,6 @@ nav li {
 
 .home-img img:hover {
     transform: scale(1.05);
-}
-
-.home-content p{
-    font-size: large;
-    font-weight: 200;
-
 }
 
 .home-content h1 {
@@ -110,13 +102,20 @@ nav li {
     font-size: x-large;
 }
 
-.title {
+.home-content p {
+    font-size: large;
+    font-weight: 400;
+}
+
+.title h2 {
     text-align: center;
     padding: 3rem;
+    font-weight: 800;
+    font-size: xx-large;
 }
 
 .card {
-    border: 10px solid rgb(0, 0, 0);
+    border: 10px solid black;
     border-radius: 16px;
     background-color: #ffffff;
     transition: 0.5s ease;
@@ -126,49 +125,56 @@ nav li {
     transform: scale(1.05);
 }
 
+.card-title {
+    font-weight: 600;
+}
+
 .card-body {
-  display: flex;
-  flex-direction: column;
-  
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+    font-size: 17px;
+
 }
 
 .card-img {
     max-width: 90%;
 }
 
-.card-title {
-    font-family: sans-serif;
-    font-weight: 600;
-
-}
-.card-body {
-    font-family: sans-serif;
-    font-weight: 100;
-
-}
-
-
 .btn {
-    border: 5px solid #000000;  
+    border: 5px solid #000000;
     border-radius: 10px;
     font-size: larger;
-    font-family: sans-serif;
-
-
+    font-weight: 500;
 }
 
 .skills-content {
-    margin: auto;
-    border: 1px solid gray;
-    border-radius: 8px;
-    padding: 8px;
+    font-size: 20px;
+    font-weight: 500;
+    color: black;
+    border: 10px solid black;
+    border-radius: 16px;
+    background-color: #ffffff;
+    padding: 12px;
+    max-width: 60rem;
+    text-align: center; 
 }
 
-.skills-content img{
-    width: 50px;
-    height: 50px;
+.skills-content ul{
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    
+
 }
 
-.card-text {
-    font-size: large;
+.skills-content img {
+    width: 75px;
+    height: 75px;
+    transition: 0.3s ease;
+}
+
+.skills-content img:hover{
+    transform: scale(1.1);
+
 }
