@@ -7,7 +7,6 @@ html {
 
 body {
     font-family: "Sora", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 300;
     font-style: normal;
     background-color: #850E35;
@@ -16,7 +15,6 @@ body {
 
 .header {
     font-family: "JetBrains Mono", monospace;
-    font-optical-sizing: auto;
     font-weight: 200;
     font-style: normal;
     font-size: large;
@@ -77,7 +75,6 @@ nav li {
     align-items: center;
     gap: 2rem;
     padding-top: 2.5rem;
-    font-optical-sizing: auto;
 }
 
 .home-img img {
@@ -96,7 +93,7 @@ nav li {
     font-size: xx-large;
 }
 
-.home-content h3 {
+.home-content h2 {
     font-weight: 600;
     font-style: italic;
     font-size: x-large;
@@ -107,7 +104,7 @@ nav li {
     font-weight: 400;
 }
 
-.title h2 {
+.title h3 {
     text-align: center;
     padding: 3rem;
     font-weight: 800;
